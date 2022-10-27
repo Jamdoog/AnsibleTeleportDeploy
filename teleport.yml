@@ -1,6 +1,6 @@
 ---
 - name: Deploy Teleport
-  hosts: all
+  hosts: teleport
   become: true
   roles:
     - jamdoog.teleport 
